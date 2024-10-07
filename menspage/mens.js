@@ -219,4 +219,271 @@ var productData = [{
     atc: "Add to Bag",
     atw: "Add to Whishlist",
     category: "Tshirts",
-}, 
+},  {
+    image_url: "https://assets.myntassets.com/assets/images/25620080/2023/10/25/439caf5f-18ce-438e-a4a2-0489ba7fe1c01698227577897HRXbyHrithikRoshanMenBlackMeshRunningNon-MarkingShoes1.jpg ",
+    brand: "HRX by Hrithik Roshan",
+    para: "Men Textured Loafers ",
+    price: "Rs. 2159 ",
+    rs: 2159,
+    strikedoffprice: "Rs 3599 ",
+    offer: "(40% OFF) ",
+    atc: "Add to Bag",
+    atw: "Add to Whishlist",
+    category: "Casual Shoes",
+}, {
+    image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11391304/2020/2/12/6ac85c45-89e1-49a9-a75c-c3283c7bb35c1581501120769USPoloAssnMenRedWhiteStripedThongFlip-Flops1.jpg ",
+    brand: "HRX by Hrithik Roshan",
+    para: "Men MARINOS Thong Flip-Flop ",
+    price: "Rs. 499 ",
+    rs: 499,
+    strikedoffprice: "Rs 999 ",
+    offer: "(50% OFF) ",
+    atc: "Add to Bag",
+    atw: "Add to Whishlist",
+    category: "Flip Flops",
+}, {
+    image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/17115412/2022/2/17/bd7c0800-36cd-4d59-af23-16f008bcbe991645097233573-US-Polo-Assn-Men-Flip-Flops-1681645097232221-1.jpg ",
+    brand: "HRX by Hrithik Roshan",
+    para: "Men SPECTER 5.0 Sliders ",
+    price: "Rs. 1119 ",
+    rs: 1119,
+    strikedoffprice: "Rs 1599 ",
+    offer: "(30% OFF) ",
+    atc: "Add to Bag",
+    atw: "Add to Whishlist",
+    category: "Slippers",
+}, {
+    image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/1/17/8088e3c4-5737-482b-80de-8d9bcede75f81579215077796-1.jpg ",
+    brand: "Flying Machine",
+    para: "Printed Polo Collar Pure Cotton T-Shirt ",
+    price: "Rs. 1259 ",
+    rs: 1259,
+    strikedoffprice: "Rs 2099 ",
+    offer: "(40% OFF) ",
+    atc: "Add to Bag",
+    atw: "Add to Whishlist",
+    category: "Tshirts",
+}, {
+    image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15246010/2021/10/13/006a88c9-920e-4ca3-b9e2-96d6410cd2ad1634123262816-US-Polo-Assn-Men-Casual-Shoes-5701634123262500-1.jpg ",
+    brand: "Flying Machine",
+    para: "Men Solid Sneakers ",
+    price: "Rs. 2039 ",
+    rs: 2039,
+    strikedoffprice: "Rs 3399 ",
+    offer: "(40% OFF) ",
+    atc: "Add to Bag",
+    atw: "Add to Whishlist",
+    category: "Casual Shoes",
+}, {
+    image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13855576/2021/4/12/3fd86278-f3c7-44e3-8e2a-0a7c99fc45171618217750272-US-Polo-Assn-Men-Casual-Shoes-1131618217749743-3.jpg ",
+    brand: "Flying Machine",
+    para: "Men Solid Sneakers ",
+    price: "Rs. 2099 ",
+    rs: 2099,
+    strikedoffprice: "Rs 2999 ",
+    offer: "(30% OFF) ",
+    atc: "Add to Bag",
+    atw: "Add to Whishlist",
+    category: "Casual Shoes",
+}, {
+    image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/12396176/2020/10/27/670a01d6-79db-4216-8ade-01ab1acd99a01603772848205-US-Polo-Assn-Men-Flip-Flops-3311603772846714-1.jpg ",
+    brand: "Flying Machine",
+    para: "Men Printed Sliders ",
+    price: "Rs. 824 ",
+    rs: 824,
+    strikedoffprice: "Rs 1499 ",
+    offer: "(45% OFF) ",
+    atc: "Add to Bag",
+    atw: "Add to Whishlist",
+    category: "Slippers",
+}, {
+    image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14406196/2021/7/13/15632f28-0e28-4925-bd85-c35f192ee95f1626156262374-U-S-Polo-Assn-Men-Black-PU-Sneakers-5531626156261907-1.jpg ",
+    brand: "Roadster",
+    para: "Men Colourblocked Sneakers",
+    price: "Rs. 2099",
+    rs: 2099,
+    strikedoffprice: "Rs 2999",
+    offer: "(30% OFF)",
+    atc: "Add to Bag",
+    atw: "Add to Whishlist",
+    category: "Casual Shoes",
+}, {
+    image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11581056/2020/8/4/1998da2a-869b-45b4-9d80-d16dd6756d721596534397516-US-Polo-Assn-Men-Blue--White-Printed-Thong-Flip-Flops-990159-1.jpg ",
+    brand: "Flying Machine",
+    para: "Men Printed Tong Flip-Flops",
+    price: "Rs. 599",
+    rs: 599,
+    strikedoffprice: "Rs 999",
+    offer: "(40% OFF)",
+    atc: "Add to Bag",
+    atw: "Add to Whishlist",
+    category: "Flip Flops",
+}, {
+    image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13640688/2021/4/17/28b7b7ea-6a87-42df-9577-4299f5030a411618637780329-US-Polo-Assn-Men-Tshirts-7061618637779314-1.jpg ",
+    brand: "PUMA",
+    para: "Slim Fit Striped Pure Cotton T-Shirt",
+    price: "Rs. 1299",
+    rs: 1299,
+    strikedoffprice: "Rs 1999",
+    offer: "(35% OFF) ",
+    atc: "Add to Bag",
+    atw: "Add to Whishlist",
+    category: "Slippers",
+}, ];
+
+
+var wishListData = JSON.parse(localStorage.getItem("wishListObj")) || []
+
+var bagData = JSON.parse(localStorage.getItem("BagListObj")) || []
+
+window.addEventListener('load', function() {
+    displayPage(productData)
+})
+
+document.getElementById('nameSort').addEventListener('change', sortNames);
+
+function sortNames() {
+    var selected = document.getElementById('nameSort').value;
+    if (selected == 'asc') {
+        productData.sort(function(a, b) {
+            if (a.brand > b.brand) return 1
+            if (a.brand < b.brand) return -1
+            return 0;
+        })
+
+        displayPage(productData);
+    } else {
+        productData.sort(function(a, b) {
+            if (a.brand > b.brand) return -1
+            if (a.brand < b.brand) return 1
+            return 0
+        })
+
+        displayPage(productData)
+    }
+}
+
+document.getElementById('priceSort').addEventListener('change', sortPrice);
+
+function sortPrice() {
+    var selected = document.getElementById('priceSort').value;
+    if (selected == 'lth') {
+        productData.sort(function(a, b) {
+            return a.rs - b.rs;
+        })
+        displayPage(productData);
+    } else {
+        productData.sort(function(a, b) {
+            return b.rs - a.rs;
+        })
+        displayPage(productData)
+    }
+}
+
+document.getElementById('brandFilter').addEventListener('change', filterBrand);
+
+function filterBrand() {
+    var selected = document.getElementById('brandFilter').value
+    var newArray = productData.filter(function(element) {
+        if (element.brand == selected) {
+            return element;
+        }
+    })
+    displayPage(newArray);
+}
+
+
+function displayPage(productData) {
+
+    document.getElementById("container").innerHTML = "";
+
+    productData.map(function(elem) {
+        var box = document.createElement("div")
+        box.style.cursor = "pointer"
+
+        var img = document.createElement("img")
+        img.src = elem.image_url
+
+        var contentBox = document.createElement('div');
+        contentBox.setAttribute('class', 'contentBox')
+
+        var brand = document.createElement("h4")
+        brand.textContent = elem.brand
+
+        var productname = document.createElement("p")
+        productname.textContent = elem.para
+
+
+        var mix = document.createElement("div")
+        mix.setAttribute("class", "mixbox")
+
+
+        var price = document.createElement("p")
+        price.textContent = elem.price
+
+        var strprice = document.createElement("p")
+        strprice.textContent = elem.strikedoffprice
+        strprice.setAttribute("class", "strikep")
+
+
+        var offer = document.createElement("p")
+        offer.textContent = elem.offer
+        offer.setAttribute("class", "offerp")
+
+        mix.append(price, strprice, offer)
+
+        
+
+        var atw = document.createElement("p")
+        atw.setAttribute("class", "wishListp")
+        atw.textContent = elem.atw;
+        atw.style.cursor = "pointer"
+
+        atw.addEventListener("click", function() {
+            addToWishlist(elem)
+            atw.style.color = "green"
+            atw.innerText = "ADDED TO WISHLIST"
+        })
+
+
+      
+        var atc = document.createElement("p")
+        atc.setAttribute("class", "addToBagp")
+        atc.textContent = elem.atc;
+        atc.style.cursor = "pointer"
+
+
+        atc.addEventListener("click", function() {
+            addToBag(elem)
+            atc.innerText = "ADDED TO BAG"
+        })
+
+        contentBox.append(brand, productname, mix, atw, atc)
+
+        box.append(img, contentBox)
+
+        document.querySelector("#container").append(box);
+
+
+
+    });
+
+}
+
+
+
+function addToWishlist(element) {
+    // console.log(element)
+    wishListData.push(element)
+    localStorage.setItem("wishListObj", JSON.stringify(wishListData))
+}
+
+function addToBag(element) {
+    // console.log(element)
+    bagData.push(element)
+    localStorage.setItem("BagListObj", JSON.stringify(bagData))
+}
+
+document.getElementById('landingPage').addEventListener('click', function() {
+window.location.href = "../Landingpage/index.html"
+}) 
