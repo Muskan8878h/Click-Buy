@@ -68,7 +68,7 @@ header>* {
 }
 
 #nav_bar li:hover a {
-    border-bottom: 5px solid #f58fa0;
+    border-bottom: 5px solid #3cc3a0;
 }
 
 #nav_bar li:nth-child(1):hover a {
@@ -76,7 +76,7 @@ header>* {
 }
 
 #nav_bar li:nth-child(2):hover a {
-    border-bottom: 5px solid #ff69b4;
+    border-bottom: 5px solid #3cc3a0;
 }
 
 #nav_bar li:nth-child(3):hover a {
@@ -455,7 +455,7 @@ input[type="radio" i] {
 #container .addToBagp {
     color: white;
     text-align: center;
-    background-color: rgb(255, 62, 108);
+    background-color: #3cc3a0;
     padding: 1.6rem 0;
     padding-left: 2.6rem;
     border-radius: 5px;
