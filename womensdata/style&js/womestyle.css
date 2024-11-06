@@ -381,11 +381,11 @@ input[type="radio" i] {
 }
 
 #container {
-    width: 75%;
+    /* width: 75%; */
     height: 50%;
     margin-top: 5rem;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     column-gap: 3rem;
     row-gap: 7rem;
     padding: 0 2.2rem;
