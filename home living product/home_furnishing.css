@@ -144,7 +144,7 @@ input[type="checkbox" i], input[type="radio" i]{
 #container .addToBagp {
     color: white;
     text-align: center;
-    background-color: #3cc3a0;
+    background-color: rgb(13, 222, 222);
     padding: 1.6rem 0;
     padding-left:2.6rem;
     border-radius: 5px;
