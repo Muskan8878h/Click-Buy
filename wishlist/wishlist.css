@@ -27,7 +27,7 @@ body{
     justify-content: space-between;
     width: 100%;
     height: auto;
-    color: #14cda8;
+    color: rgb(13, 222, 222);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
@@ -57,7 +57,7 @@ line-height: 2rem;
 .buttonholder > button{
    border:0;
     color: white;
-    background-color: #14cda8;
+    background-color: rgb(13, 222, 222);
     padding : 1.2rem 2rem;
     border-radius: 5px;
 }
