@@ -1,58 +1,56 @@
-document.querySelector("button").addEventListener("click",loginfun)
+// code to open side navbar
+const menuIcon = document.getElementById('menu-icon');
+const mobileMenu = document.getElementById('mobile-menu');
+const closeIcon = document.querySelector('.close-icon');
+menuIcon.addEventListener('click', () => {
+    mobileMenu.style.transform = mobileMenu.classList.contains('open') ? 'translateX(-100%)' : 'translateX(0)';
+    mobileMenu.classList.toggle('open');
+});
+closeIcon.addEventListener('click', () => {
+    mobileMenu.style.transform = 'translateX(-100%)';
+    mobileMenu.classList.remove('open');
+});
+// code for drop down
+const dropbtns = document.querySelectorAll('.dropbtn');
+dropbtns.forEach(dropbtn => {
+    const button = dropbtn.querySelector('.heading');
+    const content = dropbtn.querySelector('.content');
+    const icon = button.querySelector('.drop-icon');
 
- var userdata =JSON.parse(localStorage.getItem("userarr")) ||[];
+    button.addEventListener('click', () => {
+        content.classList.toggle('show');
+        icon.classList.toggle('rotate');
+    });
+});
 
-function loginfun(){
-    var in_mob =document.querySelector("#mob").value;
-  
-    for(var a=userdata.length-1; a>=0 ;a--)
-  {
-    if (in_mob ==""){
-        alert("enter mobile to login")
-        break;
-       }
-    
-     if(in_mob == userdata[a].mob){
-           if( checkpass(a)){
-             console.log(checkpass(a))
-             alert("login successful")
-             document.querySelector("#mob").value = ""; 
-             document.querySelector("#pass").value = "";
+// login
+document
+    .getElementById("loginForm")
+    .addEventListener("submit", function (event) {
+        event.preventDefault();
+        const username = document.getElementById("username").value;
+        const password = document.getElementById("password").value;
 
-              window.location.href ="../payment/address.html";
-              break;
-           }else{
-             alert("wrong password")
-             document.querySelector("#pass").value="";
-           }
-      }
-      else if(a==userdata.length-1){
-        
-        alert("you dont have account sign up first")
-    
-        window.location.href="signup.html"
-      }
+        const user = localStorage.getItem(username);
 
-  }
-}
+        if (user) {
+            const parsedUser = JSON.parse(user);
+            if (parsedUser.password === password) {
+                localStorage.setItem("user", JSON.stringify(parsedUser));
 
-function checkpass(a){
+                // Retrieve the last visited page from localStorage
+                const lastPage = localStorage.getItem("lastPage");
 
-  var in_pass =document.querySelector("#pass").value;
-
-   return ( userdata[a].password == in_pass)
-     
-}
-
-
-
-// HYPERLINKS
-document.getElementById('profile').addEventListener('click', function(){
-  window.location.href = "signup.html"
-})
-document.getElementById('landingPage').addEventListener('click', function(){
-  window.location.href = "../Landingpage/index.html"
-})
-document.getElementById('signUp').addEventListener('click', function(){
-  window.location.href = "../Profile/signup.html"
-})
+                // Redirect to the last visited page or to the home page if not found
+                if (lastPage) {
+                    window.location.href = lastPage;
+                } else {
+                    window.location.href = "/home/index.html";
+                }
+            } else {
+                alert("Incorrect password");
+            }
+        } else {
+            alert("User not found");
+        }
+    });
