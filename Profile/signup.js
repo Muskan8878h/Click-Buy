@@ -11,17 +11,17 @@ closeIcon.addEventListener('click', () => {
     mobileMenu.classList.remove('open');
 });
 // code for drop down
-// const dropbtns = document.querySelectorAll('.dropbtn');
-// dropbtns.forEach(dropbtn => {
-//     const button = dropbtn.querySelector('.heading');
-//     const content = dropbtn.querySelector('.content');
-//     const icon = button.querySelector('.drop-icon');
+const dropbtns = document.querySelectorAll('.dropbtn');
+dropbtns.forEach(dropbtn => {
+    const button = dropbtn.querySelector('.heading');
+    const content = dropbtn.querySelector('.content');
+    const icon = button.querySelector('.drop-icon');
 
-//     button.addEventListener('click', () => {
-//         content.classList.toggle('show');
-//         icon.classList.toggle('rotate');
-//     });
-// });
+    button.addEventListener('click', () => {
+        content.classList.toggle('show');
+        icon.classList.toggle('rotate');
+    });
+});
 
 // register
 document
