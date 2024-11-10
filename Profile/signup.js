@@ -1,28 +1,3 @@
-// code to open side navbar
-const menuIcon = document.getElementById('menu-icon');
-const mobileMenu = document.getElementById('mobile-menu');
-const closeIcon = document.querySelector('.close-icon');
-menuIcon.addEventListener('click', () => {
-    mobileMenu.style.transform = mobileMenu.classList.contains('open') ? 'translateX(-100%)' : 'translateX(0)';
-    mobileMenu.classList.toggle('open');
-});
-closeIcon.addEventListener('click', () => {
-    mobileMenu.style.transform = 'translateX(-100%)';
-    mobileMenu.classList.remove('open');
-});
-// code for drop down
-const dropbtns = document.querySelectorAll('.dropbtn');
-dropbtns.forEach(dropbtn => {
-    const button = dropbtn.querySelector('.heading');
-    const content = dropbtn.querySelector('.content');
-    const icon = button.querySelector('.drop-icon');
-
-    button.addEventListener('click', () => {
-        content.classList.toggle('show');
-        icon.classList.toggle('rotate');
-    });
-});
-
 // register
 document
     .getElementById("registerForm")
@@ -47,5 +22,5 @@ document
 
         localStorage.setItem(username, JSON.stringify(user));
         alert("Registration successful! Please login.");
-        window.location.href = "login.html";
+        window.location.href = "profile.html";
     });
